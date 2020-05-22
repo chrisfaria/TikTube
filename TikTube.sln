@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TikTube.Orchestrators", "TikTube.Orchestrators\TikTube.Orchestrators.csproj", "{573B369F-19DC-4432-88CA-C7F40F44047F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TikTube.Downloader", "TikTube.Downloader\TikTube.Downloader.csproj", "{861EA465-1E85-46C2-AD6E-B6707472F709}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FunctionApps", "FunctionApps", "{7F226FBA-716F-4409-BA58-1E6819CD735F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TikTube.Models", "TikTube.Models\TikTube.Models.csproj", "{B7DA020A-D62D-46F4-A5CD-2214D538CAD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{573B369F-19DC-4432-88CA-C7F40F44047F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{573B369F-19DC-4432-88CA-C7F40F44047F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{573B369F-19DC-4432-88CA-C7F40F44047F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{573B369F-19DC-4432-88CA-C7F40F44047F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{861EA465-1E85-46C2-AD6E-B6707472F709}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{861EA465-1E85-46C2-AD6E-B6707472F709}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{861EA465-1E85-46C2-AD6E-B6707472F709}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{861EA465-1E85-46C2-AD6E-B6707472F709}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7DA020A-D62D-46F4-A5CD-2214D538CAD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7DA020A-D62D-46F4-A5CD-2214D538CAD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7DA020A-D62D-46F4-A5CD-2214D538CAD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7DA020A-D62D-46F4-A5CD-2214D538CAD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{573B369F-19DC-4432-88CA-C7F40F44047F} = {7F226FBA-716F-4409-BA58-1E6819CD735F}
+		{861EA465-1E85-46C2-AD6E-B6707472F709} = {7F226FBA-716F-4409-BA58-1E6819CD735F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0683B277-678D-4216-984D-6DDF243E3288}
+	EndGlobalSection
+EndGlobal
